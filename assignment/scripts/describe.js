@@ -143,6 +143,7 @@ if (number >= 2) {
 // FIX - colorOne should be set to 'blue' per instructions
 // let colorOne = 'blue';
 let colorOne = 'red';
+
 // FIX - colorTwo should be set to 'red' per instructions
 // let colorTwo = 'red';
 let colorTwo = 'blue';
@@ -150,6 +151,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+
   // FIX - colorTwo should also be set to 'purple' per instructions
   // colorTwo = 'purple';
 }
@@ -161,8 +163,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - incorrect assignment of variable time to a constant. time will change and we should be able to reassign a value.
+// let time = 4;
 const time = 4;
 
+// FIX - per instructions both conditions must be met, not either. Change 'or' to 'and'.
+// if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -174,10 +180,22 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// Potential FIX - minAge was not specified as a constant variable.
+// It could be: let minAge = 21;
 const minAge = 21;
 
+// FIX - this statement checks if age is greater than or equal to minAge, but the instructions specify to check if age
+// is greater than or equal to minAge
+// if (age >= minAge) {
 if(minAge <= age) {
+
+  //FIX - the instructions do not reference the string 'no entry'. The line of code below should be deleted.
+  //without a console log command, no entry will be made.
   console.log('no entry');
+  
+  // the console.log 'enter' command was specified as being an outcome of age being greater than or equal to minAge
+  //so it should not be within an else clause, but rather part of the original if statement.
+  // FIX - console.log('enter');}
 } else {
   console.log('enter');
 }
