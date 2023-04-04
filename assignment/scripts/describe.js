@@ -19,17 +19,17 @@ let number = 1;
 number++;
 
 if (number >= 2) {
-  console.log('yes');
+  console.log('yes');                                    
 }
-
+  
 */
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set it to the string 'Dane'
+// we check if name is equal to 'Mary' and console log 'Hi Mary' if it is equal
+// If it is not equal, we console log 'How do you do?'
+//In this case name is not equal to Mary so we console log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create and undefined string variable secret
+// create a number variable code and set it equal to 123
+// if code is equal to 123 then assign the string 'super' to secret and make code equal to its previous value times 2
+// in this case code is equal to 123 so secret now equals 'super' and code is now equal to 246
+// if code is greater than 250, set set secret equal to the string 'duper'
+// in this case code is less than 250, so secret is still equal to 'super'
+// then console log the value of secret, which is 'super'
 
 //CODE
 /*
