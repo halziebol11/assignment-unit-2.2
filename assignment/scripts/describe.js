@@ -73,10 +73,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a boolean variable called isStudent and set it equal to true
+// create a number variable called age and set it to 34
+// create a number variable called zip and set it to 55407
+// if the variable isStudent equals true and the zip is greater than 80000, then console log the string 'You're a student on the West Coast!""
+// in this case, the zip is less than 80000, so the string will not be logged, so we continue to the next statement
+// if isStudent equals false or age is less than 30, then console log the string 'What are your hobbies'
+// in this case neither condition is met, so the string will not be logged, so we continue to the next statement
+// if isStudent is true, then console log 'Welcome to Prime!'
+// since this is true, the string is logged and the if clause is completed.
+// if none of the previous if statements were true we'd continue on to the final,
+// which is console log 'How about the weather?'
 
 //CODE
 /*
@@ -133,12 +140,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' per instructions
+// let colorOne = 'blue';
 let colorOne = 'red';
+// FIX - colorTwo should be set to 'red' per instructions
+// let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - colorTwo should also be set to 'purple' per instructions
+  // colorTwo = 'purple';
 }
 */
 
