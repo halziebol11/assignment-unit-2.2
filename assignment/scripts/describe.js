@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// create and undefined string variable secret
+// create an undefined string variable secret
 // create a number variable code and set it equal to 123
 // if code is equal to 123 then assign the string 'super' to secret and make code equal to its previous value times 2
 // in this case code is equal to 123 so secret now equals 'super' and code is now equal to 246
